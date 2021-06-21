@@ -1,0 +1,68 @@
+body {
+    background-color: gray;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+#nav {
+    background-color: rgba(0, 0, 0, 0.192);
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+#main {
+    background-color: rgb(118, 80, 255);
+    height: 400px;
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 60px;
+   /* padding-left: 120px;
+    padding-right: 240px;*/
+}
+ img {
+   float: right;
+   margin: right; 
+}
+#footer {
+    background-color: rgb(72, 8, 85);
+    height: 50px;
+    padding-right: 240px;
+}
+h1 {
+    font-size: 60px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*@media(min-width: 500px){
+    h1::before{
+        content: "About Halimah Ibrahim-Akinoso";
+    }
+}
+@media(max-width: 400px){
+    h1::before{
+        content: "About Me";
+    }
+}*/
+h2 {
+    font-size: 20px;
+    color: rosybrown;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ol>li{
+    color:  rgb(13, 0, 128);
+
+}
